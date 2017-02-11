@@ -5,7 +5,7 @@
 #define DEFAULT_TAB_SIZE 4
 
 void usage(void) {
-	printf("detab [-n <tab size>]");
+	printf("usage: detab [-n <tab size>]");
 }
 
 int main(int argc, char *argv[]) {
